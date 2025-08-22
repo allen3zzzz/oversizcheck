@@ -1,0 +1,16 @@
+FREY/
+│
+├─ app.py                 # 主入口，可作为工具库总页面
+├─ pages/
+│   └─ profit_calc.py     # 利润核算子功能
+│
+├─ tools/                 # 功能模块
+│   ├─ fifo.py            # FIFO 扣减逻辑
+│   ├─ first_leg.py       # 头程费用计算
+│   ├─ last_leg.py        # 尾程运费计算
+│   ├─ handling.py        # 操作费计算
+│   ├─ mysql_ssh.py       # SSH 隧道连接 MySQL
+│   └─ utils.py           # 公共工具函数
+│
+├─ requirements.txt       # 依赖包
+└─ README.md
